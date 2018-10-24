@@ -1,0 +1,17 @@
+body {
+    background-color: #f99;
+}
+nav {
+    display: flex;
+	justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+	
+}
+a {
+	background-color: #FF0;
+}
+a:hover { 
+    background-color: yellow;
+	transition: background-color 1000ms linear;
+}
